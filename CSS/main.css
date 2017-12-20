@@ -1,0 +1,136 @@
+html, body {
+    /*padding: 0;
+    margin: 0;
+    background-image: url(../Images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;*/
+}
+/*this is how you make a comment*/
+
+.size {
+    width: 300px;
+    height: auto;
+}
+
+.homediv h1{
+    font-family: 'Lobster',cursive;
+    font-size: auto;
+}
+.linksdiv{
+    background-color: transparent;
+    color: black;
+  }
+
+.indexbackground{
+    width: auto;
+    height: auto;
+    background-color: rgba(70,0,600,0.5);
+    border-radius: 30px;/*this makes the boarder of your square rounded*/
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*15px 10px 5px/*This padding is top-right-botum-left and it is decreasing 5 pixels each side*/
+}
+
+.homebackground{
+    background-image: url(../Images/Background.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*This padding is top-right-botum-left and it is same each side*/
+}
+
+.parchment{
+    width: auto;
+    height: auto;
+    background-image: url(../Images/Parchment.png);
+    background-repeat: repeat;
+}
+
+.homediv{
+    width: auto;
+    height: auto;
+    background-color: rgba(0,60,0,0.5);
+    border-radius: 30px;/*this makes the boarder of your square rounded*/
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*15px 10px 5px/*This padding is top-right-botum-left and it is decreasing 5 pixels each side*/
+}
+
+.homediv2{
+    background-image: url(../Images/Background2.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*This padding is top-right-botum-left and it is same each side*/
+}
+.homediv3{
+    background-image: url(../Images/Background3.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*This padding is top-right-botum-left and it is same each side*/
+}
+.homediv4{
+    background-image: url(../Images/Background4.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*This padding is top-right-botum-left and it is same each side*/
+}
+.homediv5{
+    background-image: url(../Images/Background5.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*This padding is top-right-botum-left and it is same each side*/
+}
+.homediv6{
+    background-image: url(../Images/Background6.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+    text-align: center;
+    color: aqua;
+    padding: 20px /*This padding is top-right-botum-left and it is same each side*/
+}
+
+.externallinks {
+    width: 20px;
+    height: 20px;
+}
+.externallinksbig{
+    width: 50px;
+    height: 50px;
+}
