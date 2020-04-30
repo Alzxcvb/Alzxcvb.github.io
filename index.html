@@ -5,28 +5,35 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- For Favicon thing-->
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#ffffff">
-<!--Also for Favicon from website-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <!--Also for Favicon from website-->
+            
+    <!--makes the menue at the top possible in the code later-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--makes the menue at the top possible in the code later-->
     
-    
-<link type="text/css" rel="stylesheet" href="main.css">
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
 
-  <!--this is where the words on the tab area are changed to whatever-->
-  <title>Alexander Coffman's Website</title>
+    <!--this is where the words on the tab area are changed to whatever-->
+    <title>Alexander Coffman's Website</title>
     
     <!--This is for the sections on experience from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_w3css-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     
 </head>  
     <body>
-    <div id="navbar_fix">
+    <div>
+        <!-- This is the Navigation Bars area for both small and large screen (see the @media entry in the CSS file for callouts) this is both the static top and the dynamic (small screen) top left part-->
+        <div id="navbar_fix">
         <center>
             <div id="navbar">
                 <a id="link1" class="links" style="text-decoration: none" href="#Profile">Profile</a>
@@ -37,7 +44,50 @@
                 <a id="link6" class="links" style="text-decoration: none" href="#Interests">Interests</a>
                 <a id="link7" class="links" style="text-decoration: none" href="#Contact">Contact</a>
             </div>
-        </center>
+        </center></div>
+
+        <!--<div id="small_menu">
+        Navigation bar menue start
+        <nav class="navbar navbar-transparent navbar-fixed-top">
+             
+             <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="nav navbar-nav">
+                 <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown"> 
+                        <span>
+                            <h1>Menu</h1>
+                        </span>
+                    </a>
+                 <ul class="dropdown-menu">
+
+                 <li>
+                    <a id="link1" class="links" style="text-decoration: none" href="#Profile">Profile</a>
+                </li>
+                 <li>
+                    <a id="link2" class="links" style="text-decoration: none" href="#Experience">Experience</a>
+                </li>
+                 <li>
+                    <a id="link3" class="links" style="text-decoration: none" href="#Skills">Skills</a> 
+                </li>
+                 <li>
+                    <a id="link4" class="links" style="text-decoration: none" href="#Projects">Projects</a>
+                 </li>
+                 <li>
+                    <a id="link5" class="links" style="text-decoration: none" href="#Awards">Awards</a>
+                  </li>
+                 <li>
+                    <a id="link6" class="links" style="text-decoration: none" href="#Interests">Interests</a>
+                  </li>
+                  <li>
+                    <a id="link7" class="links" style="text-decoration: none" href="#Contact">Contact</a>
+                  </li>
+                </ul> 
+                </li>   
+             </ul>
+             </div>
+        </nav>
+        Navigation bar menue start
+    </div>-->
     </div>
     
     <div id="Profile" class="pimg1">
@@ -96,6 +146,10 @@
             <h3>Institute for Innovation and Entrepreneurship</h3>
             <p>Summer 2016</p>
             <p>UC Entrepreneurship Academy</p>
+            <p>Spring 2017</p>
+            <p>Big Bang Business Competition Semi-Finalist</p>
+            <p>Spring 2018</p>
+            <p>Little Bang Business Competition Finalist</p>
             </div>
             
             <div class="w3-third">
@@ -135,14 +189,34 @@
                 <h2>Careers</h2> 
             </div>
          <div class="w3-row-padding">
-         <div class="w3-third">
+         <div>
+         <a href="https://www.faa.gov/"><img class="externallinksbig" src="Images/faa.png"></a>
+<h2>Project Manager</h2>
+            <p>Federal Aviation Administration, El Segundo, 9/2019-Present</p>
+            <div> 
+                <p class="paragraph"> Contribute engineering expertise to team and manage technical aspects of projects responsibly, follow procedures. Promptly report developments on projects, document progress/issues, write reports to upper management. Manage multiple budgets for projects ranging from $1,000-$1,000,000, ensure project completion is within budget.</p>
+         </div>
+        </div>
+
+         <div>
+         <a href="https://www.lawa.org/"><img class="externallinksbig" src="Images/LAWA.png"></a>
+<h2>Airport Opperations Detail</h2>
+            <p>Los Angeles World Airports, Los Angeles, 1/2020-3/2020</p>
+            <div> 
+                <p class="paragraph">Temporary employment within another organization that works within Department of Transportation juristiction. Escorted contractors and federal employees on airfield for construction of new trminal survailence equiptment. Promptly reported developments on projects, documented progress, wrote reports to Tech Opps management. Suppervised closure of  Taxiways following proper procedures and ensured compliance of runway safety area.
+                </p>
+         </div>
+        </div>
+
+
+        <div>
          <a href="https://housing.ucdavis.edu/"><img class="externallinksbig" src="Images/SHDS_Logo.png"></a>
-<h2>Resident Advisor</h2>
+<h2>Resident Manager</h2>
             <p>Student Housing and Dining Services, Davis, 9/2018-6/2019</p>
             <div> 
-                <p class="paragraph"  >Serve as a live in on call staff member and representative of the University Student Housing  sdepartment, approximately 55 hours per week. Provide any and all immediate services students may need including but not limited to: resources, counseling, support, tutoring, feedback, and more. Regularly maintain presence in the halls and check in with first years to make sure they are okay. Serve any additional duties as directed by housing directors including but not limited to: Race course martial, event hosting (including setup and takedown), tabling, tour guide, move in crew, advertisement removal, marketing, and more. Promptly report any necessary developments within resident communities and document all situations, articulately write weekly reports to director as well as coordinating team and housing management. </p>
+                <p class="paragraph"> Serve as a live in on call staff member and representative of the University Student Housing  sdepartment, approximately 55 hours per week. Provide any and all immediate services students may need including but not limited to: resources, counseling, support, tutoring, feedback, and more. Regularly maintain presence in the halls and check in with first years to make sure they are okay. Serve any additional duties as directed by housing directors including but not limited to: Race course martial, event hosting (including setup and takedown), tabling, tour guide, move in crew, advertisement removal, marketing, and more. Promptly report any necessary developments within resident communities and document all situations, articulately write weekly reports to director as well as coordinating team and housing management. </p>
          </div>
-        </div><div class="w3-third">
+        </div><div>
          
          <a href="http://www.energy.ca.gov/"><img class="externallinksbig" src="Images/CEC.jpg"></a>
 <h2>Energy Analyst and Environmental Engineering Intern</h2>
@@ -151,23 +225,23 @@
                 <p class="paragraph">Analyze data from publicly accessible sources such as state and governmental agencies in addition to NGO’s. Prepare professional quality reports in excel and power point for marketing and publications. Take and keep detailed notes at meetings and project presentations. Prepare and locate material for Cal-Adapt website blog and academic news reports. Summarize complex technical reports in understandable language using Microsoft power point and word.</p>
          </div>
     
-        </div><div class="w3-third">
+        </div><div>
              
        <a href="http://success.ucdavis.edu/centers-and-programs/aggie-connect/index.html"><img class="externallinksbig" src="Images/FYAC.jpg"></a>
 <h2>First Year Aggie Connections Peer Mentor</h2>
         <p>Student Academic Success Center, UC Davis, 3/2016-6/2017</p>
             <div> 
-                <p class="paragraph">Worked collaboratively with staff and faculty to plan numerous events for first years to aid in transition to college. Engaged freshman and transfers with leadership training, personal development and campus engagement resources. </p>
+                <p class="paragraph">Worked collaboratively with staff and faculty to plan numerous events for first years to aid in transition to college. Engaged freshman and transfers with leadership training, personal development and campus engagement resources. Coordinated weekly and monthly meetings to introduce first year students to campus resources and activities. Supervised on and off campus social activities with up to a dozen first year students to provide opportunities for students to meet others with similar interests.</p>
          </div>
         </div>
-             <div class="w3-third"> 
+             <div> 
          <a href="http://physics.ucdavis.edu/"><img class="externallinksbig" src="Images/physics-logo.png"></a>
 <h2> Teaching Assistant/Roof Helper</h2>
         <p>UC Davis Physics Department, Davis CA, 4/2016-1/2017</p>
             <div> 
                 <p class="paragraph">Assisted with teaching and supervision of Astronomy Laboratory course in the UC Davis physics department. Answered student questions regarding course material and expectations. Contributed to writing and proctored oral and written final examinations at the end of the term. Supervised student use of telescopes and lab equipment. Prepared for labs weekly.</p>
          </div>
-        </div><div class="w3-third">
+        </div><div>
          
          <a href="http://success.ucdavis.edu/about/aat/index.html"><img class="externallinksbig" src="Images/Tutoring-logo.png"></a>
 <h2>Physics and Math Tutor</h2>
@@ -175,7 +249,7 @@
             <div> 
                 <p class="paragraph">Prepare material weekly to teach students numerous physics and math courses, provide individual tutoring for athletes, underrepresented and first generation college Students, and engage students to create an active learning environment. Explain complex concepts from class in understandable ways. </p>
          </div>
-        </div><div class="w3-third">
+        </div><div>
         
         <a href="http://www.ece.ucdavis.edu/"><img class="externallinksbig" src="Images/EEC.jpg"></a>
 <h2>Research Assistant</h2>
@@ -183,7 +257,7 @@
             <div> 
                 <p class="paragraph">Measure circuit responses under high frequencies ranging from 10MHz to 67GHz (primarily in the 5GHz-30GHz) Assist with circuit measurements optimized for X-band (8-12GHz). Simulate circuit designs with AWR Microwave Office. Preform design and layout for micro circuits used in measuring high frequency responses.</p>
          </div>
-        </div><div class="w3-third">
+        </div><div>
 
         <a href="http://charismac.com/"><img class="externallinksbig" src="Images/Charismac.jpg"></a>
          <h2>PCB Layout and Design Intern</h2>
@@ -191,7 +265,7 @@
             <div> 
                 <p class="paragraph">Designed parts with Altium the electronics design software, researched components for wireless controllers and sensors. Worked collaboratively with Graduate student interns and Professional Engineers. Found best deals on Market for components to be used in wireless sensing devices.</p>
          </div>
-        </div><div class="w3-third">
+        </div><div>
 
          <a href="http://farmersmarket.ucdavis.edu/"><img class="externallinksbig" src="Images/farmar-logo.jpg"></a>
          <h2>Marketing Intern</h2>
@@ -199,7 +273,7 @@
                     <div> 
                         <p class="paragraph">Oversaw marketing for highest grossing term on record at on campus farmers market and increased profits by over 320% from previous quarter. Coordinated multiple student interns and volunteers. Distributed buttons to promote farmers market. Managed weekly fruit basket promotional program. Wrote weekly newsletter article on farmers market. Represented department at Annual Sustainability Summit.</p>
          </div>
-        </div><div class="w3-third">
+        </div><div>
 
        <a href="https://chemistry.ucdavis.edu/"><img class="externallinksbig" src="Images/Chemistry-logo.gif"></a>
          <h2>Undergraduate Researcher</h2>
@@ -356,12 +430,21 @@
                         </div>
                                     <div class="w3-third">
             <h2>Standup Comedy</h2>
-            <p>I have recently become involved in the standup comedy scene locally</p>
+            <p>I was very involved in the standup comedy scene at school and am now pursing it in LA!</p>
             
-            <h2>Mondavi Center Open Mic</h2>
+            <h2>Last UC Davis Performance</h2>
             <iframe width="420" height="345" src="https://www.youtube.com/embed/3vZjzdMCOfU">
             </iframe>
-            </div></div>
+            </div>
+
+            <div class="w3-third">
+                         <h2>Personal Finance and Investing</h2>
+            <p>I think financial literacy is very important in our society and world today and have been compiling most of what I've learned on a blog site that can be found here: 
+            </p>
+            <a href="https://personalfinanceandinvesting.weebly.com/">Personal Finance and Investing</a>
+            </div>
+
+          </div>
         </section>
     </div>
         
